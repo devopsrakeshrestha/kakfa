@@ -1,0 +1,13 @@
+akhq:
+  connections:
+    my-cluster:
+      properties:
+        bootstrap.servers: "broker:29092"
+      security:
+        basic:
+          username: admin
+          password: admin
+  server:
+    port: 8080
+    servlet:
+      context-path: /
